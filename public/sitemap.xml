@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://www.yufu.org/posts/</loc>
+    <lastmod>2024-11-06T13:03:37+08:00</lastmod>
+  </url><url>
+    <loc>http://www.yufu.org/posts/first-post/</loc>
+    <lastmod>2024-11-06T13:03:37+08:00</lastmod>
+  </url><url>
+    <loc>http://www.yufu.org/</loc>
+    <lastmod>2024-11-06T13:03:37+08:00</lastmod>
+  </url><url>
+    <loc>http://www.yufu.org/authors/</loc>
+  </url><url>
+    <loc>http://www.yufu.org/categories/</loc>
+  </url><url>
+    <loc>http://www.yufu.org/series/</loc>
+  </url><url>
+    <loc>http://www.yufu.org/tags/</loc>
+  </url>
+</urlset>

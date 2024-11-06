@@ -1,0 +1,60 @@
+baseurl = "http://www.yufu.org"
+title = "渔夫"
+theme = "hugo-coder"
+languagecode =  "zh-cn"
+defaultcontentlanguage =  "zh-cn"
+paginate = 20
+
+[services]
+[services.disqus]
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "CC"
+  info = "一名在校大学生"
+  description = "CC的个人网站"
+  keywords = "blog,developer,personal,yufu"
+  avatarurl = "images/author_image.jpg"
+  #gravatar = "CC@yufu.org"
+
+  faviconSVG = "/img/faviconSVG.png"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto" 
+  hidecolorschemetoggle = true
+
+  math =true
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "微信"
+  weight = 1
+  url = "images/wechat.jpg"
+
+
+# Menu links
+[[menu.main]]
+  name = "文章"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
