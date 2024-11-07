@@ -1,4 +1,4 @@
-baseurl = "http://www.yufu.org"
+baseurl = "https://thunderous-beijinho-6f4e5d.netlify.app/"
 title = "渔夫"
 theme = "hugo-coder"
 languagecode =  "zh-cn"
