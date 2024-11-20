@@ -1,0 +1,215 @@
+@font-face{
+    font-family: 'lxgw wenkai';
+    src:url('../font/LXGWWenKaiGBScreen.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 全局样式 */
+* {
+    font-family:'lxgw wenkai',Arial, Helvetime, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height:30px;
+    background-color: #f5f5f5;
+}
+
+
+
+/* a标签 */
+a {
+    color:black ; /* 链接的默认颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    transition: color 0.3s, background-color 0.3s; /* 添加过渡效果 */
+}
+
+/* 悬停效果 */
+a:hover {
+    color: rgb(54, 103, 159); /* 悬停时的文字颜色 */
+    border-radius: 5px; /* 可选：添加圆角效果 */
+    padding: 5px; /* 可选：增加一点填充，使背景色更明显 */
+}
+
+a:active{
+    color: red;
+}
+
+hr {
+    border: 0; /* 去掉默认的边框 */
+    border-top: 1px solid rgb(154, 154, 154); /* 设置顶部边框为2px的深灰色实线 */
+    margin: 10px 10px; /* 上下留白 */
+}
+
+
+
+/* 顶部导航栏 */
+header {
+    font-size: 25px;
+    background-color: #333;
+    color: #fff;
+    padding: 0.1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.left {
+    margin-right: auto; /* 将标题推到左侧 */
+    margin-left: 3rem;
+}
+
+.left h1 {
+    color: white;
+    font-size: 40px;
+    align-self: flex-start;
+}
+
+.right{
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.right a{
+    color: #fff;
+}
+
+.right a:hover{
+    color: rgb(54, 103, 159);
+}
+
+.right a:active{
+    color: red;
+}
+
+/* 主体布局 */
+.container {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 侧边栏 */
+.sidebar {
+    width: 25%;
+    background-color: #fff;
+    padding: 0.1rem;
+    margin-right: 1rem;
+    margin-left: 5rem;
+    border-radius: 8px;
+}
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(222, 226, 230); /* Border around the table */
+}
+
+caption{
+    font-size: 30px;
+    text-align: center;
+     color:black;
+}
+
+ td{
+    border: 1px solid rgb(222, 226, 230); 
+    text-align: center;
+    font-size:20px ;  
+     color: black;
+}
+
+/* 内容区域 */
+.content {
+    width: 75%;
+    margin-right: 5rem;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.content article {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.content article h1 {
+   color: rgb(99, 174, 82); 
+   font-weight: 600;
+}
+
+.content article .message{
+    font-size: 14px;
+}
+
+.content article div{
+    font-size: 25px;
+}
+
+
+#pre1{
+    background: white;
+    border:0;
+    height: 3rem;
+}
+
+
+footer{
+    padding: 0.1rem;
+}
+
+footer div{
+    text-align: center;
+}
+
+/* id#css */
+.dark{
+    display: none;
+}
+
+.buttonDark{
+    background-color:rgb(99, 174, 82) ;
+    border-radius: 20%;
+    border: 0;
+    opacity: 0.8;
+}
+
+
+.cc{
+   color: rgb(99, 174, 82); 
+}
+
+/* 行内定位平滑效果 */
+html {
+    scroll-behavior: smooth;
+  }
+  
+.bookAside{
+    width:50%; 
+    margin-right:3rem;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.bookAside h1{
+    color: rgb(99, 174, 82); 
+    font-weight: 600;
+    text-align: center;
+}
+
+.bookAside div{
+    color: black;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.jinGan{
+    color: rgb(99, 174, 82);
+}
