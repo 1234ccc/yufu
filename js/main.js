@@ -51,7 +51,7 @@ async function copyText(Id_1, id_2) {
 }
 
 /* 八卦图旋转 */
-        let angle = 0; // 初始角度
+  /*       let angle = 0; // 初始角度
         const img = document.getElementById('bagua'); // 获取具有 id 为 bagua 的图片元素
 
         // 旋转函数
@@ -66,4 +66,4 @@ async function copyText(Id_1, id_2) {
         }
 
         // 页面加载后自动开始旋转
-        window.onload = startRotation;
+        window.onload = startRotation; */

@@ -180,36 +180,6 @@ footer div{
     border: 0;
     opacity: 0.8;
 }
-
-
 .cc{
    color: rgb(99, 174, 82); 
-}
-
-/* 行内定位平滑效果 */
-html {
-    scroll-behavior: smooth;
-  }
-  
-.bookAside{
-    width:50%; 
-    margin-right:3rem;
-    padding-bottom: 20px;
-    background-color: white;
-}
-
-.bookAside h1{
-    color: rgb(99, 174, 82); 
-    font-weight: 600;
-    text-align: center;
-}
-
-.bookAside div{
-    color: black;
-    font-size: 25px;
-    margin: 0 20px;
-}
-
-.jinGan{
-    color: rgb(99, 174, 82);
 }
