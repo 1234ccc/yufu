@@ -4,7 +4,6 @@
     font-weight: normal;
     font-style: normal;
 }
-/* 全局样式 */
 * {
     font-family:'lxgw wenkai',Arial, Helvetime, sans-serif;
     margin: 0;
@@ -19,18 +18,16 @@ body {
 
 
 
-/* a标签 */
 a {
-    color:black ; /* 链接的默认颜色 */
-    text-decoration: none; /* 去掉下划线 */
-    transition: color 0.3s, background-color 0.3s; /* 添加过渡效果 */
+    color:black ; 
+    text-decoration: none; 
+    transition: color 0.3s, background-color 0.3s; 
 }
 
-/* 悬停效果 */
 a:hover {
-    color: rgb(54, 103, 159); /* 悬停时的文字颜色 */
-    border-radius: 5px; /* 可选：添加圆角效果 */
-    padding: 5px; /* 可选：增加一点填充，使背景色更明显 */
+    color: rgb(54, 103, 159); 
+    border-radius: 5px; 
+    padding: 5px; 
 }
 
 a:active{
@@ -38,14 +35,13 @@ a:active{
 }
 
 hr {
-    border: 0; /* 去掉默认的边框 */
-    border-top: 1px solid rgb(154, 154, 154); /* 设置顶部边框为2px的深灰色实线 */
-    margin: 10px 10px; /* 上下留白 */
+    border: 0; 
+    border-top: 1px solid rgb(154, 154, 154); 
+    margin: 10px 10px;
 }
 
 
 
-/* 顶部导航栏 */
 header {
     font-size: 25px;
     background-color: #333;
@@ -60,7 +56,7 @@ header {
 }
 
 .left {
-    margin-right: auto; /* 将标题推到左侧 */
+    margin-right: auto; 
     margin-left: 3rem;
 }
 
@@ -169,7 +165,6 @@ footer div{
     text-align: center;
 }
 
-/* id#css */
 .dark{
     display: none;
 }

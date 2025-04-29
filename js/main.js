@@ -1,8 +1,5 @@
 
-
-
 /* 隐藏内容 */
-// 封装成通用的 toggleContent 函数
 function toggleContent(button, content) {
     if (content.style.display === "none") {
         content.style.display = "block";
@@ -22,28 +19,20 @@ document.querySelectorAll(".buttonDark").forEach((button, index) => {
 
 /* 复制文本功能 */
 async function copyText(Id_1, id_2) {
-    // 获取要复制的文本内容，使用 textContent 获取 span 的内容
     const textToCopy = document.getElementById(Id_1).textContent;
 
     try {
-        // 使用 Clipboard API 复制文本
         await navigator.clipboard.writeText(textToCopy);
-
-        // 获取图标元素并替换为“复制成功”文本
         const copyIcon = document.getElementById(id_2);
         copyIcon.style.display = "none"; // 隐藏图标
-
-        // 创建“复制成功”文本元素
         const successText = document.createElement("span");
         successText.id = "successText";
         successText.innerText = "复制成功";
-        successText.style.color = "rgb(99, 174, 82)"; // 使用 RGB 格式设置绿色文本
+        successText.style.color = "rgb(99, 174, 82)";
         copyIcon.parentNode.insertBefore(successText, copyIcon.nextSibling);
-
-        // 1 秒后恢复原始图标
         setTimeout(() => {
-            successText.remove(); // 删除“复制成功”文本
-            copyIcon.style.display = "inline"; // 显示原始图标
+            successText.remove(); 
+            copyIcon.style.display = "inline"; 
         }, 1000);
     } catch (err) {
         console.error("复制失败:", err);
