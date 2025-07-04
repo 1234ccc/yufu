@@ -66,7 +66,7 @@ header {
     align-self: flex-start;
 }
 
-.right{
+/* .right{
     margin-left: auto;
     margin-right: 2rem;
 }
@@ -81,7 +81,7 @@ header {
 
 .right a:active{
     color: red;
-}
+} */
 
 /* 主体布局 */
 .container {
